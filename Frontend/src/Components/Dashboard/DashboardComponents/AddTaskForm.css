@@ -1,0 +1,29 @@
+.dialog {
+  display: flex;
+  justify-content: center;
+}
+.add-task-container {
+  display: flex;
+  flex-direction: column;
+  width: 570px;
+  height: 591px;
+  background-color: white;
+}
+input::placeholder {
+  padding-left: 30px;
+}
+textarea {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 480px;
+  height: 253px;
+  background: #eaeaea;
+  font-size: 19px;
+  border-radius: 6px;
+  border: none;
+}
+textarea::placeholder {
+  padding-left: 30px;
+  padding-top: 10px;
+}
